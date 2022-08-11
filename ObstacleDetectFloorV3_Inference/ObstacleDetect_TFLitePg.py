@@ -17,8 +17,7 @@ from pygame import camera
 from pygame import display
 
 ''' Declaration of Global Variables --- '''
-#TFLITE_MODEL_DIR = './TfLite_model'
-TFLITE_MODEL_DIR = '/home/pi/python/MVM_Rpi/TfLite_model'
+TFLITE_MODEL_DIR = './TfLite_model'
 PATH_TO_TFLITE_MODEL = os.path.join(TFLITE_MODEL_DIR,'model.tflite')
 
 _SHOW_COLOR_IMAGE = False
